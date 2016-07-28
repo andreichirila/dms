@@ -1,0 +1,179 @@
+html{
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+	margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family:Handwrote;
+//src:url("../../../css/FFF Tusj.ttf");
+    src:url("../css/LoveYaLikeASisterSolid.ttf");
+}
+
+body{
+	background-color:white;
+	font-size: 14px;
+    font-family: Handwrote;
+}
+
+.alerts_ov{
+    position:fixed;
+    z-index:15;
+    bottom:0;
+    width: 100%;
+}
+.btn-default-ov{
+    min-width : 100%;
+}
+.container_index{
+    margin-top:7em;
+}
+.left_colour{
+    width:2em;
+    background-color:#009DE0;
+}
+.well{
+    box-shadow: 0px 1px 2px #aaa, inset 0px 2px 3px #fff;
+    -moz-box-shadow: 0px 1px 2px #aaa, inset 0px 2px 3px #fff;
+    -webkit-box-shadow: 0px 1px 2px #aaa, inset 0px 2px 3px #fff;
+	padding: 1em;
+	border: 2px solid #e8e8e8;
+	cursor: pointer;
+	border-radius:6px;
+	background-color:#f5f5f5;
+	text-align:left;
+}
+.well-lg{
+	padding:0.6em;
+}
+
+.well-lg-room{
+	padding:0;
+}
+
+.cameronet-logo {
+	width: 260px;
+	margin-top: 10px;
+	margin-left: -5px;
+}
+.glyphicon-globe{
+	float:right;
+}
+.place-flags .glyphicon-flag{
+	position:relative;
+ 	color:orange;
+ 	font-size:5em;
+ 	left:50%;
+	top:0;
+	transform:translate(-50%);
+}
+/* Sticky footer styles
+ -------------------------------------------------- */
+.footer {
+    z-index: 5;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	border-top: 1px solid #009ee1;
+	background-color: white;
+}
+.float-left{
+    float : left;
+    font-weight : bold;
+}
+.disabled-white[disabled], .disabled-white[readonly] {
+    background-color: rgba(0,0,0,0);
+    border: medium none;
+    margin-top:5px;
+    box-shadow: none;
+    color: #000;
+    cursor: default;
+    opacity: 1;
+}
+.input-group-addon-ov {
+	background-color: rgba(0,0,0,0);
+	border: none;
+	border-radius: 0px;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled]{
+    cursor:default;
+}
+.form-group{
+    //border:2px solid floralwhite !important;
+    //border-radius:5px;
+    //padding-bottom: 1em;
+}
+
+.disabled-white::-webkit-input-placeholder { color: #484848; font-weight: bold;}
+.disabled-white:-moz-placeholder { color: #484848; font-weight: bold;}
+.disabled-white::-moz-placeholder { color: #484848; font-weight: bold;}
+.disabled-white::-ms-input-placeholder { color: #484848; font-weight: bold;}
+.pad-int-time {
+	padding-left: 1em;
+}
+.jsTreePlace{
+    min-width:100%;
+    height:800px;
+    font: 16px Verdana, sans-serif;
+    box-shadow: 1px 1px 5px #ccc;
+    border-radius: 5px;
+    overflow-y:auto;
+    overflow-x:auto;
+}
+.search_icon{
+    background-image : url('../img/search.png');
+    width:32px;
+    height:32px;
+}
+.locked{
+    background-image : url('../img/locked.png');
+    width:32px;
+    height:32px;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.unlocked{
+    background-image : url('../img/unlocked.png');
+    width:32px;
+    height:32px;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+#header {
+	background-color: white;
+	border-bottom: 1px solid #009ee1;
+	padding-bottom: 17px;
+
+}
+
+#submit_btn{
+    margin-top:2em;
+}
+
+/***** main.hmtl ****/
+.hiddenRow{
+    padding:1px 2px 1px 2px !important;
+    border:none !important;
+}
+.results tr[visible='false'],
+.no-result{
+    display:none;
+}
+.abstand{
+    margin-bottom:5em;
+}
+.results tr[visible='true']{
+    display:table-row;
+}
+
+.counter{
+    padding:8px;
+    color:#ccc;
+}

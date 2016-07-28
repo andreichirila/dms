@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cameronet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/cameronet.css"/>
+
+</head>
+<body id="page_index">
+
+<div id="main-content-index">
+    <div class="container-fluid" data-role="header" id="header" data-position="fixed">
+        <div class="container">
+            <a href="index.html"><img src="img/cameronet.png" class="cameronet-logo"></a>
+        </div>
+    </div>
+
+    <div class="container container_index">
+
+        <div class="col-xs-12">
+            <h4 id="error_msg" style="color:#f71021;"></h4>
+        </div>
+
+        <div id="pwd_alert row col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
+
+        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <label id="index_title_user"><h3>Benutzername</h3></label>
+            <input type="text" class="form-control" id="user" name="user"/>
+        </div>
+        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <label id="index_title_password"><h3>Passwort</h3></label>
+            <input type="password" class="form-control" id="user_password" name="password"/>
+        </div>
+
+        <button type="submit" class="btn btn-default" id="submit_btn">
+            <b id="index_btn_title">Anmelden</b>
+        </button>
+    </div>
+</div>
+<br>
+
+<div class="footer">
+    <div class="container-fluid" id="footer_id">
+    </div>
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/core.js"></script>
+<script src="js/md5.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
